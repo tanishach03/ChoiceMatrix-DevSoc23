@@ -1,0 +1,12 @@
+.sub-list-container{
+    display: flex;
+    justify-content: center;
+}
+
+.sub-item{
+    background-color: #F671B2;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+}
