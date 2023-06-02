@@ -7,10 +7,11 @@
     height: 50vh;
 }
 
-h2{
+.feedback-container h2{
     color: #DA3F8B;
     text-align: start;
-    margin-left: 220px;
+    font-size: 22pt;
+    margin: 0px 0px 0px 220px;
 }
 
 .UX-visuals h4{
@@ -18,7 +19,15 @@ h2{
     text-align: start;
 }
 .UX-visuals input{
-    margin: 0px 20px 0px 20px;
+    margin: 0px 45px 0px 30px;
+}
+
+.good-radio{
+    margin: 0px 10px 0px 10px;
+}
+
+.excellent-radio{
+    margin: 0px 10px 0px 10px;
 }
 
 .feedback-container{
@@ -26,10 +35,20 @@ h2{
     flex-direction: column;
 }
 
+.rating-heading{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 130px;
+}
+
 .rating-head{
     width: 50%;
     margin-left: 215px;
 }
+.rating-heading p{
+    margin: 0px 20px 0px 20px;
+}
+
 
 .rating-data{
     width: 50%;
@@ -49,4 +68,25 @@ h2{
 .rating-data{
     display: flex;
     justify-content: flex-start; 
+    align-items: center;
+}
+
+.suggestion-text input{
+    outline: none;
+    height: 25px;
+    width: 350px;
+    border-radius: 8px;
+    border: none;
+    padding: 2px 10px 2px 10px;
+    background-color: rgb(235, 234, 234);
+}
+
+.suggestion-text input:hover{
+    outline: none;
+    border: black 1px solid;
+}
+
+.submit-btn btn{
+    background-color: #F775B6;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }

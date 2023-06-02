@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import { Routes, Route } from 'react-router-dom';
 import Register from './components/Register';
 import Feedback from './components/Feedback';
+import Contact from './components/Contact';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path='/about' exact element={<Landing/>}/>
         <Route path='/register' exact element={<Register/>}/>
         <Route path='/feedback' exact element={<Feedback/>}/>
+        <Route path='/contact' element={<Contact/>}/>
       </Routes>
       <Footer/>
     </>
