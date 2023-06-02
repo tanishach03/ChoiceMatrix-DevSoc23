@@ -1,9 +1,13 @@
 import "./Landing.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAt, faUser, faLock } from "@fortawesome/free-solid-svg-icons";
-import HeroImg from '../assets/HeroImg.png';
+import HeroImg from "../assets/HeroImg.png";
+import { Link } from "react-router-dom";
 
 const Landing = () => {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <>
       <div className="main-content-container">
@@ -18,7 +22,7 @@ const Landing = () => {
           </p>
         </div>
         <div className="img-container">
-            <img src={HeroImg} alt='HeroImg' className="hero-img"/>
+          <img src={HeroImg} alt="HeroImg" className="hero-img" />
         </div>
       </div>
       <div className="login-container">
@@ -41,7 +45,16 @@ const Landing = () => {
                 </div>
               </div>
               <div className="login-btn">
-                <button>Login</button>
+                <div onClick={scrollToTop}>
+                  <Link to="/subscriptions">
+                    <button>Login</button>
+                  </Link>
+                </div>
+                <div onClick={scrollToTop}>
+                  <Link to="/userregister">
+                    <button>Register</button>
+                  </Link>
+                </div>
               </div>
             </div>
           </form>
@@ -65,7 +78,11 @@ const Landing = () => {
                 </div>
               </div>
               <div className="login-btn">
-                <button>Login</button>
+                <div onClick={scrollToTop}>
+                  <Link to="/projects">
+                    <button>Login</button>
+                  </Link>
+                </div>
               </div>
             </div>
           </form>

@@ -1,9 +1,9 @@
-import "./Register.css";
+import "./UserRegister.css";
 import RegisterImg from "../assets/RegisterImg.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faAt, faLock } from "@fortawesome/free-solid-svg-icons";
 
-const Register = () => {
+const UserRegister = () => {
   return (
     <div className="register-container">
       <div className="register-main-content-container">
@@ -16,7 +16,7 @@ const Register = () => {
         </div>
       </div>
       <div className="register-form-container">
-        <h2>Employee Registration</h2>
+        <h2>User Registration</h2>
         <form>
           <div className="user-login-form">
             <div className="firstname">
@@ -57,4 +57,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default UserRegister;
