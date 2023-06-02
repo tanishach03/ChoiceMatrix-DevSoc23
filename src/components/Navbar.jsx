@@ -49,7 +49,7 @@ function Navbar() {
             to={"/"}
           >
             <img src={Logo} alt='logo' className='logo'/>
-            CHOICEMATRIX
+            <h3 className='logo-text'>CHOICEMATRIX</h3>
           </Typography>
           </Link>
 
@@ -86,12 +86,12 @@ function Navbar() {
             >
               <MenuItem key={'Home'} onClick={handleCloseNavMenu}>
                 <Link to='/about' className='navlink'>
-                  <Typography textAlign="center">About</Typography>
+                  <Typography textAlign="center" className='navbar-menu-text'>About</Typography>
                 </Link>
               </MenuItem>
               <MenuItem key={'About'} onClick={handleCloseNavMenu}>
                 <Link to='/contact' className='navlink'>
-                  <Typography textAlign="center">Contact Us</Typography>
+                  <Typography textAlign="center" className='navbar-menu-text'>Contact Us</Typography>
                 </Link>
               </MenuItem>
             </Menu>
@@ -118,7 +118,8 @@ function Navbar() {
               <Button
                 key='About'
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: '#000000a6', display: 'block', margin: '0 40px 0 40px', fontWeight: 'bolder', textTransform: 'capitalize', "&:hover": { backgroundColor: "transparent" }, fontSize: '11pt' }}
+                sx={{ my: 2, color: '#000000a6', display: 'block', margin: '0 40px 0 40px', fontWeight: 'bolder', textTransform: 'capitalize', "&:hover": { backgroundColor: "transparent" }, fontSize: '14pt' }}
+                className='navbar-menu-text'
               >
                 About
               </Button>
@@ -127,7 +128,8 @@ function Navbar() {
               <Button
                 key='About'
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: '#000000a6', display: 'block', margin: '0 40px 0 40px', fontWeight: 'bolder', textTransform: 'capitalize', "&:hover": { backgroundColor: "transparent" }, fontSize: '11pt' }}
+                sx={{ my: 2, color: '#000000a6', display: 'block', margin: '0 40px 0 40px', fontWeight: 'bolder', textTransform: 'capitalize', "&:hover": { backgroundColor: "transparent" }, fontSize: '14pt' }}
+                className='navbar-menu-text'
               >
                 Contact Us
               </Button>

@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+
 .login-container{
     display: flex;
     align-items: center;
@@ -51,12 +56,14 @@
     background-color: #F775B6;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     margin: 10px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 13pt;
 }
 
 
 label{
     margin: 8px 0px 8px 0px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-size: large;
     width: 200px;
     text-align: start;
@@ -116,13 +123,17 @@ input:focus{
 }
 
 h1{
-    margin: 10px;  
+    margin: 10px; 
+    font-family: 'Fredoka', sans-serif; 
 }
 
 h2{
     margin: 10px 10px 50px 10px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
 }
 
 p{
     font-size: larger;
+    font-family: 'Manrope', sans-serif;
 }

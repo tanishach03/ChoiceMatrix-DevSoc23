@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
 .footer-container{
     margin-top: 50px;
 }
@@ -17,15 +21,21 @@
     background-color: #1F253B;
 }
 
+.end-footer p{
+    font-family: 'Manrope', 'sans-serif';
+}
+
 h4{
     font-weight: 700;
     font-size: 15pt;
     margin: 5px;
+    font-family: 'Poppins', sans-serif;
 }
 h5{
     margin: 5px;
     font-weight: 200;
     color: grey;
+    font-family: 'Poppins', sans-serif;
 }
 
 .logo-text{
@@ -48,6 +58,7 @@ h5{
     display: flex;
     flex-direction: column;
     text-align: start;
+    margin: 0 15px 0 15px;
 }
 
 .about-text-container{

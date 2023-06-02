@@ -9,4 +9,15 @@
     width: 300px;
     margin: 20px;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.sub-list-container a{
+    text-decoration: none;
+    color: #213547;
+}
+
+.sub-list-container a:hover{
+    text-decoration: none;
+    color: #213547;
 }
