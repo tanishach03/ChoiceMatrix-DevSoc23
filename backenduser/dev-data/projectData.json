@@ -1,0 +1,22 @@
+[
+    {
+        "projectId": 5,
+        "departmentId": 2
+    },
+    {
+        "projectId": 2,
+        "departmentId": 4
+    },
+    {
+        "projectId": 1,
+        "departmentId": 3
+    },
+    {
+        "projectId": 2,
+        "departmentId": 1
+    },
+    {
+        "projectId": 3,
+        "departmentId": 4
+    }
+]

@@ -1,0 +1,25 @@
+{
+  "name": "choicematrix-devsoc23",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanishach03/ChoiceMatrix-DevSoc23.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanishach03/ChoiceMatrix-DevSoc23/issues"
+  },
+  "homepage": "https://github.com/tanishach03/ChoiceMatrix-DevSoc23#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.2"
+  }
+}
