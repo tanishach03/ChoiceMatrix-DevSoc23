@@ -1,0 +1,52 @@
+.feedback-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 50vh;
+}
+
+h2{
+    color: #DA3F8B;
+    text-align: start;
+    margin-left: 220px;
+}
+
+.UX-visuals h4{
+    /* margin: 20px 350px 20px 150px; */
+    text-align: start;
+}
+.UX-visuals input{
+    margin: 0px 20px 0px 20px;
+}
+
+.feedback-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.rating-head{
+    width: 50%;
+    margin-left: 215px;
+}
+
+.rating-data{
+    width: 50%;
+}
+
+.UX-visuals{
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;  
+}
+
+.rating-head{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rating-data{
+    display: flex;
+    justify-content: flex-start; 
+}

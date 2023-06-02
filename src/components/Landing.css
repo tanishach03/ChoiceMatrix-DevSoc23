@@ -9,11 +9,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: aqua;
-    height: 300px;
-    width: 450px;
+    background-color: #8c9cff;
+    height: 400px;
+    width: 390px;
     border-radius: 20px;
     margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .emp-login{
@@ -21,11 +22,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: aqua;
-    height: 300px;
-    width: 450px;
+    background-color: #8c9cff;
+    height: 400px;
+    width: 390px;
     border-radius: 20px;
     margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .userId, .empId, .password{
@@ -36,11 +38,24 @@
     width: 95%;
 }
 
+.login-btn{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.login-btn button{
+    background-color: #F775B6;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+
 label{
     margin: 8px 0px 8px 0px;
     font-family: 'Inter', sans-serif;
-    font-size: smaller;
+    font-size: large;
     width: 200px;
+    text-align: start;
+    margin-left: 10px;
 }
 
 .user-login-form, .emp-login-form{
@@ -58,7 +73,7 @@ label{
     padding: 5px;
 }
 
-input{
+.inputDiv input{
     width: 90%;
     padding: 0;
 	background: none;
@@ -74,4 +89,35 @@ input{
 input:focus{
     outline: none;
 
+}
+
+.main-content-container{
+    display: flex;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 90vh;
+}
+
+.img-container{
+    display: flex;
+    width: 40%;
+    margin-left: 50px;
+}
+
+h1{
+    margin: 10px;  
+}
+
+h2{
+    margin: 10px 10px 50px 10px;
+}
+
+p{
+    font-size: larger;
 }

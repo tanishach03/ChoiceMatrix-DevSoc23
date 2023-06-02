@@ -11,6 +11,7 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
+import Logo from '../assets/Logo.png';
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -37,13 +38,18 @@ function Navbar() {
               display: { xs: 'none', md: 'flex' },
               fontFamily: 'monospace',
               fontWeight: 700,
-              letterSpacing: '.3rem',
               textDecoration: 'none',
+              color: 'black',
+              alignItems: 'center',
+              ":hover": {
+                color: "black"
+              }
             }}
             component={Link}
             to={"/"}
           >
-            LOGO
+            <img src={Logo} alt='logo' className='logo'/>
+            CHOICEMATRIX
           </Typography>
           </Link>
 
@@ -79,13 +85,13 @@ function Navbar() {
               className='nav-menu'
             >
               <MenuItem key={'Home'} onClick={handleCloseNavMenu}>
-                <Link to='/home' className='navlink'>
-                  <Typography textAlign="center">Home</Typography>
+                <Link to='/about' className='navlink'>
+                  <Typography textAlign="center">About</Typography>
                 </Link>
               </MenuItem>
               <MenuItem key={'About'} onClick={handleCloseNavMenu}>
-                <Link to='/about' className='navlink'>
-                  <Typography textAlign="center">About</Typography>
+                <Link to='/contact' className='navlink'>
+                  <Typography textAlign="center">Contact Us</Typography>
                 </Link>
               </MenuItem>
             </Menu>
@@ -105,18 +111,9 @@ function Navbar() {
                 textDecoration: 'none',
               }}
             >
-                LOGO
+                CHOICEMATRIX
             </Typography>
           <Box sx={{ my: 3, flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: "flex-end", }}>
-            <Link to='/home' className='navlink'>
-              <Button
-                key='Home'
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: '#000000a6', display: 'block', margin: '0 40px 0 40px', fontWeight: 'bolder', textTransform: 'capitalize', "&:hover": { backgroundColor: "transparent" }, fontSize: '11pt' }}
-              >
-                Home
-              </Button>
-            </Link>
             <Link to='/about' className='navlink'>
               <Button
                 key='About'
@@ -124,6 +121,15 @@ function Navbar() {
                 sx={{ my: 2, color: '#000000a6', display: 'block', margin: '0 40px 0 40px', fontWeight: 'bolder', textTransform: 'capitalize', "&:hover": { backgroundColor: "transparent" }, fontSize: '11pt' }}
               >
                 About
+              </Button>
+            </Link>
+            <Link to='/contact' className='navlink'>
+              <Button
+                key='About'
+                onClick={handleCloseNavMenu}
+                sx={{ my: 2, color: '#000000a6', display: 'block', margin: '0 40px 0 40px', fontWeight: 'bolder', textTransform: 'capitalize', "&:hover": { backgroundColor: "transparent" }, fontSize: '11pt' }}
+              >
+                Contact Us
               </Button>
             </Link>
           </Box>

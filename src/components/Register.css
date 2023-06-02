@@ -1,0 +1,40 @@
+.register-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-img{
+    height: 300px;
+    width: 400px;
+}
+
+.register-main-content-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.register-form-container{
+    background-color: #9EC0FD;
+    width: 60%;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.register-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 50vh;
+}
+
+.firstname, .lastname{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    height: 18%;
+    width: 95%;
+}

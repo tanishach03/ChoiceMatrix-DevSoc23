@@ -1,0 +1,55 @@
+.footer-container{
+    margin-top: 50px;
+}
+
+.socials-footer{
+    height: 28vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.end-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    color: white;
+    background-color: #1F253B;
+}
+
+h4{
+    font-weight: 700;
+    font-size: 15pt;
+    margin: 5px;
+}
+h5{
+    margin: 5px;
+    font-weight: 200;
+    color: grey;
+}
+
+.logo-text{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.social-links{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.programs, .resources, .legal{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.about-text-container{
+    display: flex;
+}
